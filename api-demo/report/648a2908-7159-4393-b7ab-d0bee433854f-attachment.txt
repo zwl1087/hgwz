@@ -1,0 +1,14 @@
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate, br", 
+    "Host": "httpbin.testing-studio.com", 
+    "User-Agent": "python-requests/2.26.0", 
+    "X-Forwarded-Host": "httpbin.testing-studio.com", 
+    "X-Scheme": "https"
+  }, 
+  "origin": "120.229.10.2", 
+  "url": "https://httpbin.testing-studio.com/get"
+}
+

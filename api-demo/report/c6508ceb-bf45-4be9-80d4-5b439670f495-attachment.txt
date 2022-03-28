@@ -1,0 +1,19 @@
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate, br", 
+    "Content-Length": "0", 
+    "Host": "httpbin.testing-studio.com", 
+    "User-Agent": "python-requests/2.26.0", 
+    "X-Forwarded-Host": "httpbin.testing-studio.com", 
+    "X-Scheme": "https"
+  }, 
+  "json": null, 
+  "origin": "120.229.10.2", 
+  "url": "https://httpbin.testing-studio.com/post"
+}
+

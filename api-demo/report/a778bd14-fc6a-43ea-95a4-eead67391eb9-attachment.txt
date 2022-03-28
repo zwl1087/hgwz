@@ -1,0 +1,1 @@
+{'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate, br', 'Content-Length': '0', 'Host': 'httpbin.testing-studio.com', 'Level': '1', 'Name': 'hogwz-zwl', 'User-Agent': 'python-requests/2.26.0', 'X-Forwarded-Host': 'httpbin.testing-studio.com', 'X-Scheme': 'https'}
