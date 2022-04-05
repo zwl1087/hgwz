@@ -27,8 +27,10 @@ def hello():
 def session_handle():
     for k, v in request.args.items():
         session[k] = v
+    # 数据添加至相应结果中
     resp = make_response({k: v for k, v in session.items()})
     for k, v in request.args.items():
+        # 设置cookies
         resp.set_cookie(f"cookie_{k}", v)
     return resp
 
@@ -80,4 +82,5 @@ def post_test_case():
 if __name__ == '__main__':
     # 启动一个flask服务，并一直停留等待，直到程序停止
     # app.run("127.0.0.1", 5000)
+    # ip 设置成0.0.0.0是，同一局域网的ip可以访问对应服务的接口
     app.run(host="0.0.0.0", port=5000, debug=True)

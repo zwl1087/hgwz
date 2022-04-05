@@ -1,3 +1,7 @@
+'''
+python 的 restful 风格的接口
+
+'''
 from flask import Flask
 from flask_restx import Resource, Api, Namespace
 
@@ -36,4 +40,10 @@ class GetTestCase(Resource):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # app.run(debug=True)
+    import random
+    a = round(random.random()*100)
+
+    print(a)
+
+
